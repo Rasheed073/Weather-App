@@ -4,22 +4,25 @@
 
 body{
     background: linear-gradient(300deg, #ced1d6,#bfc0c0); 
-    font-family: cursive;
+    font-family:'Courier New', Courier, monospace;
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+
 }
 input {
 background-color: #fff;
 border: none;
-border-radius: 22px;
+border-radius: 15px;
+font-size: 1re;
 box-shadow: 0 4px rgba(0, 0, 0, 0.1);
-font-family: inherit;
+font-family: 'Courier New', Courier, monospace;
 padding: 1rem;
 min-width: 300px;
+
 
 }
 
@@ -31,11 +34,7 @@ input:focus{
     text-align: center;
 }
 .weather h2{
+    align-items: center;
+    display: flex;
     margin-bottom: 0;
-}
-.weather small{
-    font-size: 1rem;
-}
-.weather img {
-    transform: scale(2);
 }
